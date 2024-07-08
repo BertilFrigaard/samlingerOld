@@ -1,0 +1,12 @@
+name: Samling
+version: '${project.version}'
+main: me.bertilfrigaard.samling.Samling
+commands:
+  samling:
+    aliases: samlinger
+    usage: Command not enabled
+  adminsamling:
+    aliases: asamling
+    permission: samlinger.admin
+    permission-message: "§c§lFEJL §cDu har da vist ikke adgang til den kommando"
+    usage: "§c§lFEJL §7Benyt §e/asamling hjælp §7for en liste over aktuelle kommandoer!"

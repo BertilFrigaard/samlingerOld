@@ -1,0 +1,36 @@
+#Navn på samling npc
+npc-name: "&e&lSAMLINGER"
+
+#Navn på vip-lounge npc
+lounge-npc-name: "&d&lVIP-LOUNGE"
+
+#Skal man kunne åbne samling menuen med /samling (/samlinger)
+enable-samling-command: true
+
+#######Sound settings#######
+#Slå evt. lyd fra i pluginnet
+sounds-enabled: true
+
+#Lyde. Lydstyrke og pitch kan ikke justeres
+sound-click: "note.hat"
+sound-yes: "random.orb"
+sound-no: "game.player.hurt"
+
+#######Samling settings#######
+#Maks længde på samlingers navne
+samling-maks-len: 25
+
+#Skal samlings ikoner have "glowing"/enchanted effekt
+samling-glowing: true
+
+########Leaderboard settings########
+#Hvilke farver skal navne på spillerene på leaderboardet være? den første er første pladsen den sidste er sidste pladsen osv. (Der må kun være 9)
+leaderboard-colors: "&6&l,&e&l,&e&l,&e&l,&c&l,&c&l,&c&l,&c&l,&c&l"
+
+#IK RØR INDSTIL MED /asamling destination
+vip-lounge:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+
+
